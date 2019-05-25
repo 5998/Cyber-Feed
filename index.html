@@ -37,7 +37,6 @@
     <title>CYBER FEED.</title>
 
     <!-- Keen io Dashboard style -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/keen-dashboards.css" />
 
     <!-- This is the styles of the live trades of cryptocompare.com Please download a copy of the styles to your project files -->
@@ -66,12 +65,12 @@
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
+                </button>-->
                 <a class="navbar-brand">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
@@ -95,13 +94,19 @@
             <div class="col-sm-12">
                 <div class="chart-wrapper">
                     <div class="chart-title">
-                        News Feeds
+                        News Feeds & Podcasts
                     </div>
                     <div class="chart-stage" style="height: 600px">
                         <div class="feedgrabbr_widget" id="fgid_5fd13eabe857cdbaa148be878"></div>
 						<script>if (typeof (fg_widgets) === "undefined") fg_widgets = new Array(); fg_widgets.push("fgid_5fd13eabe857cdbaa148be878");</script>
 						<script async src="https://raw.githubusercontent.com/5998/HODL/master/js/fgwidget.js"></script>
                     </div>
+					<div class="chart-stage" style="height: 450px">
+						<iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/330256333&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    </div>
+					<div class="chart-stage" style="height: 450px">
+						<iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/232096760&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+					</div>
                     <div class="chart-notes">
                         2019
                     </div>
